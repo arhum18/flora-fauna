@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schema/plant-entry.schema.json",
+  "id": "liverworts-and-hornworts-category",
+  "type": "category",
+  "name": "Liverworts and Hornworts",
+  "scientific_name": "Marchantiophyta & Anthocerotophyta",
+  "authority": "",
+  "taxonomy": {
+    "kingdom": "Plantae",
+    "division": "Marchantiophyta (liverworts) / Anthocerotophyta (hornworts)",
+    "class": "[FILL IN — multiple classes]",
+    "order": "[FILL IN — multiple orders]",
+    "family": "[FILL IN — multiple families]",
+    "genus": "[FILL IN — multiple genera]",
+    "species": []
+  },
+  "description": "[FILL IN] Liverworts (division Marchantiophyta) and hornworts (division Anthocerotophyta) are non-vascular land plants (bryophytes) that, together with mosses, represent the earliest diverging lineages of land plants. They lack true roots, stems, and leaves, anchoring themselves with hair-like rhizoids. Liverworts are divided into thallose (flat, ribbon-like body) and leafy (with leaf-like lobes on a stem) forms. Hornworts are distinguished by their elongated, horn-shaped sporophytes. Both groups are found in moist habitats worldwide and play important roles in nutrient cycling and soil formation.",
+  "etymology": "[FILL IN] 'Liverwort' derives from Old English 'lifer' (liver) and 'wyrt' (plant), from the supposed resemblance of thallose forms to a liver. 'Hornwort' refers to the horn-like sporophytes.",
+  "conservation_status": {
+    "status": "Varies by species",
+    "notes": "[FILL IN]"
+  },
+  "distribution": {
+    "native_range": ["Worldwide"],
+    "habitat": "[FILL IN] Moist forests, stream banks, rock faces, soil, tree bark; some species in arid habitats.",
+    "altitude_range_m": "[FILL IN] Sea level to alpine zones."
+  },
+  "morphology": {
+    "growth_form": "[FILL IN] Non-vascular; gametophyte-dominant life cycle. Liverworts: thallose or leafy. Hornworts: thallose with horn-like sporophytes.",
+    "height_m": "[FILL IN] Typically a few millimetres to a few centimetres.",
+    "stem": "[FILL IN] No true stems; liverwort gametophytes may have stem-like axes bearing leaf-like lobes (leafy liverworts).",
+    "leaves": "[FILL IN] No true leaves; liverworts have leaf-like lobes (phyllidia) often in two to three ranks; hornworts have flat thalli.",
+    "reproductive_structures": "[FILL IN] Liverworts: archegonia (female) and antheridia (male); sporophytes small, short-lived. Hornworts: horn-shaped sporophytes that grow continuously from a basal meristem.",
+    "seeds_or_spores": "[FILL IN] Reproduce by spores; asexual reproduction by gemmae (liverworts) or fragmentation.",
+    "roots": "[FILL IN] Rhizoids (single-celled in liverworts; multicellular in hornworts); anchor the plant and absorb water."
+  },
+  "ecology": {
+    "pollination": "[FILL IN] Not applicable; spore-bearing plants.",
+    "seed_dispersal": "[FILL IN] Spore dispersal by wind; gemmae dispersed by water splash and animals.",
+    "symbioses": "[FILL IN] Hornworts host nitrogen-fixing cyanobacteria (Nostoc) in mucilage-filled cavities within the thallus. Some liverworts associate with mycorrhizal fungi.",
+    "associated_species": []
+  },
+  "uses": {
+    "cultural": "[FILL IN]",
+    "food": "[FILL IN]",
+    "medicinal": "[FILL IN] Some liverworts (e.g., Marchantia) used in traditional medicine.",
+    "horticultural": "[FILL IN] Used in terrariums, vivaria, and as moisture indicators.",
+    "economic": "[FILL IN] Some species used in floristry and as research models (Marchantia polymorpha is a key model organism)."
+  },
+  "cultivation": {
+    "hardiness_zones": "[FILL IN]",
+    "soil": "[FILL IN] Moist, well-aerated substrate; peat, bark, or mineral soil.",
+    "light": "[FILL IN] Indirect light to deep shade.",
+    "watering": "[FILL IN] High humidity; frequent misting.",
+    "propagation": "[FILL IN] Fragments, gemmae, or spores.",
+    "notes": "[FILL IN]"
+  },
+  "threats_and_conservation": "[FILL IN]",
+  "notable_species": [
+    {
+      "scientific_name": "Marchantia polymorpha",
+      "common_name": "Common liverwort",
+      "notes": "[FILL IN] Major model organism in plant biology; thallose liverwort."
+    },
+    {
+      "scientific_name": "Pellia epiphylla",
+      "common_name": "Overleaf pellia",
+      "notes": "[FILL IN] Common thallose liverwort of stream banks."
+    },
+    {
+      "scientific_name": "Porella platyphylla",
+      "common_name": "Wall scalewort",
+      "notes": "[FILL IN] Common leafy liverwort."
+    },
+    {
+      "scientific_name": "Anthoceros agrestis",
+      "common_name": "Field hornwort",
+      "notes": "[FILL IN] Widespread hornwort of disturbed arable ground."
+    },
+    {
+      "scientific_name": "Phaeoceros laevis",
+      "common_name": "Smooth hornwort",
+      "notes": "[FILL IN]"
+    }
+  ],
+  "genera_to_add": [
+    "[FILL IN — list genera for individual entries]"
+  ],
+  "gallery": [
+    {
+      "filename": "[FILL IN]",
+      "caption": "[FILL IN]",
+      "credit": "[FILL IN]",
+      "license": "[FILL IN]"
+    }
+  ],
+  "references": [
+    "[FILL IN citation 1]",
+    "[FILL IN citation 2]"
+  ],
+  "external_links": [
+    {
+      "label": "Marchantiophyta — Plants of the World Online",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30000051-2"
+    },
+    {
+      "label": "Anthocerotophyta — Plants of the World Online",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30000052-2"
+    }
+  ],
+  "categories": [
+    "Liverworts",
+    "Hornworts",
+    "Bryophytes",
+    "Non-vascular plants",
+    "Marchantiophyta",
+    "Anthocerotophyta"
+  ],
+  "last_edited": "2026-06-22"
+}

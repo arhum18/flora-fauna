@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schema/plant-entry.schema.json",
+  "id": "mosses-category",
+  "type": "category",
+  "name": "Mosses",
+  "scientific_name": "Bryophyta",
+  "authority": "",
+  "taxonomy": {
+    "kingdom": "Plantae",
+    "division": "Bryophyta",
+    "class": "[FILL IN — Bryopsida, Polytrichopsida, Sphagnopsida, Andreaeopsida, etc.]",
+    "order": "[FILL IN — multiple orders]",
+    "family": "[FILL IN — multiple families]",
+    "genus": "[FILL IN — multiple genera]",
+    "species": []
+  },
+  "description": "[FILL IN] Mosses are small, non-vascular land plants of the division Bryophyta, comprising approximately 12,000 species worldwide. They are gametophyte-dominant plants that lack true roots, stems, and leaves, though they possess analogous structures (rhizoids, stem-like caulidia, and leaf-like phyllidia). Mosses are found in virtually every terrestrial habitat on Earth, from tropical forests to polar regions, where they play key roles in water retention, carbon storage, soil stabilisation, and as habitat for invertebrates and microorganisms. They are distinguished from liverworts and hornworts by their multi-layered leaves (most liverworts have single-layered leaves) and spirally arranged leaves on stems.",
+  "etymology": "[FILL IN] 'Moss' derives from Old English 'mos', meaning a bog or swamp, reflecting the moist habitats where many species grow.",
+  "conservation_status": {
+    "status": "Varies by species",
+    "notes": "[FILL IN] Many species are sensitive to air pollution (particularly sulphur dioxide); used as bioindicators of air quality."
+  },
+  "distribution": {
+    "native_range": ["Worldwide"],
+    "habitat": "[FILL IN] Soil, rock, bark, aquatic and semi-aquatic environments; tolerant of extreme cold and seasonal desiccation.",
+    "altitude_range_m": "[FILL IN] Sea level to above 6,000 m."
+  },
+  "morphology": {
+    "growth_form": "[FILL IN] Non-vascular; gametophyte-dominant. Form cushions, mats, or tufts; some aquatic or pendant forms.",
+    "height_m": "[FILL IN] Typically a few millimetres to a few centimetres; some species up to 50 cm.",
+    "stem": "[FILL IN] Stem-like caulidia, erect or prostrate; sometimes with a central strand of water-conducting hydroids.",
+    "leaves": "[FILL IN] Leaf-like phyllidia arranged spirally; usually single cell layer thick except at midrib (costa).",
+    "reproductive_structures": "[FILL IN] Antheridia (male) and archegonia (female) on gametophyte; sporophyte bears a capsule on a seta (stalk) which releases spores.",
+    "seeds_or_spores": "[FILL IN] Spore dispersal by wind; some species disperse by water splash or animals.",
+    "roots": "[FILL IN] Rhizoids (multicellular), primarily for anchorage; water absorbed over entire surface."
+  },
+  "ecology": {
+    "pollination": "[FILL IN] Not applicable; spore-bearing plants.",
+    "seed_dispersal": "[FILL IN] Wind-dispersed spores; vegetative propagation by fragmentation and gemmae.",
+    "symbioses": "[FILL IN] Sphagnum creates peat bogs; mosses provide habitat for numerous invertebrates and microorganisms; some host cyanobacteria.",
+    "associated_species": []
+  },
+  "uses": {
+    "cultural": "[FILL IN] Used in flower arranging, Christmas nativity scenes, and craft.",
+    "food": "[FILL IN]",
+    "medicinal": "[FILL IN] Sphagnum moss used historically as wound dressing (antiseptic properties); some medicinal uses in traditional cultures.",
+    "horticultural": "[FILL IN] Used in terrariums, orchid potting mixes (Sphagnum), green walls, and Japanese gardens.",
+    "economic": "[FILL IN] Peat (compressed Sphagnum) used as fuel and horticultural growing medium; carbon sequestration in peatlands."
+  },
+  "cultivation": {
+    "hardiness_zones": "[FILL IN]",
+    "soil": "[FILL IN] Varies by group: Sphagnum prefers acidic, waterlogged; most mosses prefer moist, shaded substrates.",
+    "light": "[FILL IN] Generally shade to partial shade.",
+    "watering": "[FILL IN] High humidity; regular misting.",
+    "propagation": "[FILL IN] Fragments, spores, or division of clumps.",
+    "notes": "[FILL IN]"
+  },
+  "threats_and_conservation": "[FILL IN]",
+  "notable_species": [
+    {
+      "scientific_name": "Sphagnum magellanicum",
+      "common_name": "Magellan's peat moss",
+      "notes": "[FILL IN] Key peat-forming species; circumboreal distribution."
+    },
+    {
+      "scientific_name": "Polytrichum commune",
+      "common_name": "Common haircap moss",
+      "notes": "[FILL IN] One of the largest and most recognisable moss species."
+    },
+    {
+      "scientific_name": "Bryum argenteum",
+      "common_name": "Silver moss",
+      "notes": "[FILL IN] One of the most cosmopolitan mosses; grows on urban pavements worldwide."
+    },
+    {
+      "scientific_name": "Fontinalis antipyretica",
+      "common_name": "Greater water moss",
+      "notes": "[FILL IN] Common aquatic moss."
+    }
+  ],
+  "genera_to_add": [
+    "[FILL IN — list genera for individual entries, e.g., Sphagnum, Polytrichum, Bryum, Hypnum, etc.]"
+  ],
+  "gallery": [
+    {
+      "filename": "[FILL IN]",
+      "caption": "[FILL IN]",
+      "credit": "[FILL IN]",
+      "license": "[FILL IN]"
+    }
+  ],
+  "references": [
+    "[FILL IN citation 1]",
+    "[FILL IN citation 2]"
+  ],
+  "external_links": [
+    {
+      "label": "Bryophyta — Plants of the World Online",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30000050-2"
+    },
+    {
+      "label": "bryophytes.plantlife.org.uk",
+      "url": "https://www.britishbryologicalsociety.org.uk/"
+    }
+  ],
+  "categories": [
+    "Mosses",
+    "Bryophytes",
+    "Non-vascular plants",
+    "Bryophyta",
+    "Peat-forming plants"
+  ],
+  "last_edited": "2026-06-22"
+}

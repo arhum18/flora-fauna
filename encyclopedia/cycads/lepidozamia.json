@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schema/plant-entry.schema.json",
+  "id": "lepidozamia",
+  "type": "genus",
+  "name": "Lepidozamia",
+  "scientific_name": "Lepidozamia",
+  "authority": "Regel",
+  "taxonomy": {
+    "kingdom": "Plantae",
+    "division": "Cycadophyta",
+    "class": "Cycadopsida",
+    "order": "Cycadales",
+    "family": "Zamiaceae",
+    "genus": "Lepidozamia",
+    "species": []
+  },
+  "description": "[FILL IN] Lepidozamia is a genus of cycads endemic to eastern Australia, comprising only two species. They are among the tallest cycads in the world, with trunks reaching up to 7 metres in some individuals. Lepidozamia species typically grow in moist subtropical and tropical rainforests along Australia's east coast.",
+  "etymology": "[FILL IN] From the Greek 'lepis' (scale) and 'Zamia', referring to the scaled appearance of the cones.",
+  "conservation_status": {
+    "status": "Varies by species",
+    "notes": "[FILL IN] Both species are listed under Australian legislation; L. hopei is listed as Vulnerable."
+  },
+  "distribution": {
+    "native_range": ["Australia (Queensland, New South Wales)"],
+    "habitat": "[FILL IN] Moist subtropical and tropical rainforest margins; gullies and creek banks.",
+    "altitude_range_m": "[FILL IN]"
+  },
+  "morphology": {
+    "growth_form": "[FILL IN] Tall, arborescent cycad; one of the world's tallest cycad genera.",
+    "height_m": "[FILL IN] Up to 7 m in L. hopei.",
+    "stem": "[FILL IN] Robust columnar trunk covered in persistent leaf-base scars.",
+    "leaves": "[FILL IN] Large, glossy, pinnately compound fronds; leaflets lanceolate, dark green and shiny.",
+    "reproductive_structures": "[FILL IN] Dioecious; female cones very large and barrel-shaped; male cones elongated cylindrical.",
+    "seeds_or_spores": "[FILL IN] Large seeds with bright red sarcotesta.",
+    "roots": "[FILL IN] Coralloid roots with nitrogen-fixing cyanobacteria."
+  },
+  "ecology": {
+    "pollination": "[FILL IN] Insect-pollinated (primarily thrips).",
+    "seed_dispersal": "[FILL IN] Large seeds dispersed by cassowaries, possums, and other vertebrates.",
+    "symbioses": "[FILL IN] Cyanobacterial nitrogen fixation in coralloid roots.",
+    "associated_species": []
+  },
+  "uses": {
+    "cultural": "[FILL IN] Seeds used as food by Aboriginal Australians after processing to remove toxins.",
+    "food": "[FILL IN] Seeds prepared and eaten by Aboriginal peoples of Queensland.",
+    "medicinal": "[FILL IN]",
+    "horticultural": "[FILL IN] Cultivated as ornamental in tropical and subtropical gardens.",
+    "economic": "[FILL IN]"
+  },
+  "cultivation": {
+    "hardiness_zones": "[FILL IN]",
+    "soil": "[FILL IN] Rich, well-drained soil with organic matter.",
+    "light": "[FILL IN] Partial shade to full sun.",
+    "watering": "[FILL IN] Regular watering; prefers moist conditions.",
+    "propagation": "[FILL IN] Seed.",
+    "notes": "[FILL IN] Slow growing; CITES Appendix II listed."
+  },
+  "threats_and_conservation": "[FILL IN]",
+  "notable_species": [
+    {
+      "scientific_name": "Lepidozamia hopei",
+      "common_name": "Hope's cycad",
+      "notes": "[FILL IN] Tallest cycad species; endemic to north Queensland."
+    },
+    {
+      "scientific_name": "Lepidozamia peroffskyana",
+      "common_name": "Pineapple cycad",
+      "notes": "[FILL IN] More southerly distribution; named for Count Peroffsky."
+    }
+  ],
+  "gallery": [
+    {
+      "filename": "[FILL IN]",
+      "caption": "[FILL IN]",
+      "credit": "[FILL IN]",
+      "license": "[FILL IN]"
+    }
+  ],
+  "references": [
+    "[FILL IN citation 1]",
+    "[FILL IN citation 2]"
+  ],
+  "external_links": [
+    {
+      "label": "Lepidozamia — Plants of the World Online",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30001529-2"
+    },
+    {
+      "label": "Lepidozamia — IUCN Red List",
+      "url": "https://www.iucnredlist.org/search?query=lepidozamia&searchType=species"
+    }
+  ],
+  "categories": [
+    "Cycads",
+    "Zamiaceae",
+    "Gymnosperms",
+    "Australian endemic plants",
+    "Ornamental plants"
+  ],
+  "last_edited": "2026-06-22"
+}

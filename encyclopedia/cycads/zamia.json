@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schema/plant-entry.schema.json",
+  "id": "zamia",
+  "type": "genus",
+  "name": "Zamia",
+  "scientific_name": "Zamia",
+  "authority": "L.",
+  "taxonomy": {
+    "kingdom": "Plantae",
+    "division": "Cycadophyta",
+    "class": "Cycadopsida",
+    "order": "Cycadales",
+    "family": "Zamiaceae",
+    "genus": "Zamia",
+    "species": []
+  },
+  "description": "[FILL IN] Zamia is the largest and most species-rich genus of cycads in the Western Hemisphere, native to the Americas from the southeastern United States through Central America to South America. Zamia species are typically small, often with subterranean stems, and are adapted to a wide range of habitats from tropical forests to dry scrublands.",
+  "etymology": "[FILL IN] The name Zamia is derived from 'azaniae', a Latin word used by Pliny for pine cones that failed to develop seeds, referring to the plant's cone-like structures.",
+  "conservation_status": {
+    "status": "Varies by species",
+    "notes": "[FILL IN] Numerous species are threatened due to habitat loss and illegal collection."
+  },
+  "distribution": {
+    "native_range": [],
+    "habitat": "[FILL IN] Highly variable: tropical rainforest understory, dry deciduous forest, scrubland, rocky slopes.",
+    "altitude_range_m": "[FILL IN]"
+  },
+  "morphology": {
+    "growth_form": "[FILL IN] Usually small to medium cycad; stem often subterranean or low-growing.",
+    "height_m": "[FILL IN]",
+    "stem": "[FILL IN] Subterranean to short above-ground trunk; tuberous in many species.",
+    "leaves": "[FILL IN] Pinnately compound; leaflets variable in shape (lanceolate to obovate), often with serrate margins.",
+    "reproductive_structures": "[FILL IN] Dioecious; male and female cones (strobili) erect; female cones often barrel-shaped.",
+    "seeds_or_spores": "[FILL IN] Seeds have a fleshy sarcotesta, typically red or orange when ripe.",
+    "roots": "[FILL IN] Coralloid roots with nitrogen-fixing cyanobacteria."
+  },
+  "ecology": {
+    "pollination": "[FILL IN] Primarily by beetles and thrips; thermogenic cones produce heat and volatile chemicals to attract pollinators.",
+    "seed_dispersal": "[FILL IN] Vertebrate-dispersed; birds and mammals eat the fleshy sarcotesta.",
+    "symbioses": "[FILL IN] Nitrogen-fixing cyanobacteria (Nostoc) in coralloid roots.",
+    "associated_species": []
+  },
+  "uses": {
+    "cultural": "[FILL IN]",
+    "food": "[FILL IN] Starchy seeds and stems processed for food by indigenous Mesoamerican and Caribbean peoples after detoxification.",
+    "medicinal": "[FILL IN]",
+    "horticultural": "[FILL IN] Many species cultivated as ornamentals; Zamia furfuracea popular as a garden plant.",
+    "economic": "[FILL IN]"
+  },
+  "cultivation": {
+    "hardiness_zones": "[FILL IN]",
+    "soil": "[FILL IN] Well-drained sandy or loamy soil.",
+    "light": "[FILL IN] Partial shade to full sun depending on species.",
+    "watering": "[FILL IN] Moderate; avoid waterlogging.",
+    "propagation": "[FILL IN] Seed; offsets in some species.",
+    "notes": "[FILL IN] All parts toxic; CITES Appendix II or I depending on species."
+  },
+  "threats_and_conservation": "[FILL IN]",
+  "notable_species": [
+    {
+      "scientific_name": "Zamia furfuracea",
+      "common_name": "Cardboard palm",
+      "notes": "[FILL IN]"
+    },
+    {
+      "scientific_name": "Zamia integrifolia",
+      "common_name": "Florida arrowroot / Coontie",
+      "notes": "[FILL IN]"
+    },
+    {
+      "scientific_name": "Zamia pumila",
+      "common_name": "Coontie / Cuban cycad",
+      "notes": "[FILL IN]"
+    }
+  ],
+  "gallery": [
+    {
+      "filename": "[FILL IN]",
+      "caption": "[FILL IN]",
+      "credit": "[FILL IN]",
+      "license": "[FILL IN]"
+    }
+  ],
+  "references": [
+    "[FILL IN citation 1]",
+    "[FILL IN citation 2]"
+  ],
+  "external_links": [
+    {
+      "label": "Zamia — Plants of the World Online",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30001535-2"
+    },
+    {
+      "label": "Zamia — IUCN Red List",
+      "url": "https://www.iucnredlist.org/search?query=zamia&searchType=species"
+    }
+  ],
+  "categories": [
+    "Cycads",
+    "Zamiaceae",
+    "Gymnosperms",
+    "New World plants",
+    "Ornamental plants"
+  ],
+  "last_edited": "2026-06-22"
+}

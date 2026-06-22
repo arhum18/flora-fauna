@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schema/plant-entry.schema.json",
+  "id": "macrozamia",
+  "type": "genus",
+  "name": "Macrozamia",
+  "scientific_name": "Macrozamia",
+  "authority": "Miq.",
+  "taxonomy": {
+    "kingdom": "Plantae",
+    "division": "Cycadophyta",
+    "class": "Cycadopsida",
+    "order": "Cycadales",
+    "family": "Zamiaceae",
+    "genus": "Macrozamia",
+    "species": []
+  },
+  "description": "[FILL IN] Macrozamia is a genus of cycads endemic to Australia, comprising the majority of Australia's native cycad diversity. Species range from small, acaulescent (near-stemless) plants to substantial arborescent forms. They inhabit a variety of environments from tropical rainforest to dry eucalypt woodland and heathland across all mainland states.",
+  "etymology": "[FILL IN] From the Greek 'makros' (large) and 'Zamia', referring to the large size of many species relative to Zamia.",
+  "conservation_status": {
+    "status": "Varies by species",
+    "notes": "[FILL IN] Several species are listed as Vulnerable or Endangered under Australian law. Many are protected under CITES Appendix II."
+  },
+  "distribution": {
+    "native_range": ["Australia"],
+    "habitat": "[FILL IN] Highly variable; eucalypt woodland, dry sclerophyll forest, heathland, tropical rainforest margins.",
+    "altitude_range_m": "[FILL IN]"
+  },
+  "morphology": {
+    "growth_form": "[FILL IN] Varies from near-stemless (acaulescent) to arborescent forms.",
+    "height_m": "[FILL IN]",
+    "stem": "[FILL IN] Subterranean to erect cylindrical trunk; persistent leaf bases armour the stem.",
+    "leaves": "[FILL IN] Pinnately compound; leaflets narrow to broad, sometimes twisted; new leaves often bronze-coloured.",
+    "reproductive_structures": "[FILL IN] Dioecious; male cones narrow and cylindrical; female cones barrel-shaped, often brightly coloured.",
+    "seeds_or_spores": "[FILL IN] Seeds with fleshy, brightly coloured (red to orange) sarcotesta.",
+    "roots": "[FILL IN] Coralloid roots with nitrogen-fixing cyanobacteria."
+  },
+  "ecology": {
+    "pollination": "[FILL IN] Primarily by thrips; some wind pollination.",
+    "seed_dispersal": "[FILL IN] Large birds (such as Emu, parrots) and mammals.",
+    "symbioses": "[FILL IN] Nitrogen-fixing cyanobacteria in coralloid roots; adaptations to fire (geophytic or fire-stimulated flushing).",
+    "associated_species": []
+  },
+  "uses": {
+    "cultural": "[FILL IN] Seeds used as food by Aboriginal Australians following careful preparation to remove toxins.",
+    "food": "[FILL IN] Seeds processed (soaked, dried, ground) for traditional food uses.",
+    "medicinal": "[FILL IN]",
+    "horticultural": "[FILL IN] Many species widely cultivated in Australian gardens and internationally.",
+    "economic": "[FILL IN]"
+  },
+  "cultivation": {
+    "hardiness_zones": "[FILL IN]",
+    "soil": "[FILL IN] Sandy, well-drained soil; tolerates poor soils.",
+    "light": "[FILL IN] Full sun to partial shade.",
+    "watering": "[FILL IN] Drought-tolerant; water moderately.",
+    "propagation": "[FILL IN] Seed; offsets in some species.",
+    "notes": "[FILL IN] All parts highly toxic; fire-adapted species may need periodic burning to stimulate cone production."
+  },
+  "threats_and_conservation": "[FILL IN]",
+  "notable_species": [
+    {
+      "scientific_name": "Macrozamia communis",
+      "common_name": "Burrawang",
+      "notes": "[FILL IN]"
+    },
+    {
+      "scientific_name": "Macrozamia moorei",
+      "common_name": "Moore's cycad",
+      "notes": "[FILL IN] One of the largest species."
+    },
+    {
+      "scientific_name": "Macrozamia riedlei",
+      "common_name": "Zamia palm",
+      "notes": "[FILL IN]"
+    }
+  ],
+  "gallery": [
+    {
+      "filename": "[FILL IN]",
+      "caption": "[FILL IN]",
+      "credit": "[FILL IN]",
+      "license": "[FILL IN]"
+    }
+  ],
+  "references": [
+    "[FILL IN citation 1]",
+    "[FILL IN citation 2]"
+  ],
+  "external_links": [
+    {
+      "label": "Macrozamia — Plants of the World Online",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30001530-2"
+    },
+    {
+      "label": "Macrozamia — IUCN Red List",
+      "url": "https://www.iucnredlist.org/search?query=macrozamia&searchType=species"
+    }
+  ],
+  "categories": [
+    "Cycads",
+    "Zamiaceae",
+    "Gymnosperms",
+    "Australian endemic plants",
+    "Fire-adapted plants"
+  ],
+  "last_edited": "2026-06-22"
+}

@@ -1,0 +1,98 @@
+{
+  "$schema": "../../schema/plant-entry.schema.json",
+  "id": "flowering-plants-category",
+  "type": "category",
+  "name": "Flowering Plants",
+  "scientific_name": "Angiospermae",
+  "authority": "",
+  "taxonomy": {
+    "kingdom": "Plantae",
+    "division": "Angiospermae (Magnoliophyta)",
+    "class": "[FILL IN — multiple classes: Magnoliopsida (dicots) / Liliopsida (monocots)]",
+    "order": "[FILL IN — multiple orders]",
+    "family": "[FILL IN — multiple families]",
+    "genus": "[FILL IN — multiple genera]",
+    "species": []
+  },
+  "description": "[FILL IN] Flowering plants (angiosperms, division Angiospermae) are the most species-rich and ecologically dominant group of plants on Earth, comprising over 300,000 described species. They are characterised by the production of flowers (which attract pollinators) and enclosed seeds within fruits. Angiosperms first appeared in the fossil record during the Early Cretaceous (~130 Ma) and subsequently diversified explosively to dominate virtually all terrestrial and many aquatic habitats. They are divided into two major informal groups: monocots (Monocotyledoneae) and dicots (Eudicotyledonae), as well as the earlier-diverging magnoliids and other basal lineages.",
+  "etymology": "[FILL IN] 'Angiosperm' derives from the Greek 'angeion' (vessel/container) and 'sperma' (seed), referring to the enclosure of seeds within an ovary/fruit.",
+  "conservation_status": {
+    "status": "Varies by species",
+    "notes": "[FILL IN] Estimated that over 40% of flowering plant species are at risk of extinction."
+  },
+  "distribution": {
+    "native_range": ["Worldwide"],
+    "habitat": "[FILL IN] Virtually all terrestrial and many freshwater habitats; from tropical rainforest to arctic tundra, deserts, and aquatic environments.",
+    "altitude_range_m": "[FILL IN] Sea level to above 6,000 m."
+  },
+  "morphology": {
+    "growth_form": "[FILL IN] Extremely diverse: trees, shrubs, herbs, climbers, aquatics, epiphytes, parasites, and more.",
+    "height_m": "[FILL IN] From a few millimetres (Wolffia) to over 100 m (Eucalyptus).",
+    "stem": "[FILL IN] Herbaceous or woody; annual or perennial.",
+    "leaves": "[FILL IN] Highly variable; simple or compound, alternate, opposite, or whorled.",
+    "reproductive_structures": "[FILL IN] Flowers with perianth (sepals and petals), stamens, and carpels; ovules enclosed within ovary.",
+    "seeds_or_spores": "[FILL IN] Seeds enclosed within fruits; fruit types extremely diverse (berry, drupe, nut, capsule, achene, etc.).",
+    "roots": "[FILL IN] Taproot or fibrous root systems; may bear nitrogen-fixing nodules (legumes), mycorrhizae, or other specialisations."
+  },
+  "ecology": {
+    "pollination": "[FILL IN] Wind, insects (bees, butterflies, moths, flies), birds, bats, water; flowers co-evolved with pollinators.",
+    "seed_dispersal": "[FILL IN] Wind (anemochory), animals (zoochory — endozoochory and epizoochory), water (hydrochory), explosive dehiscence (autochory).",
+    "symbioses": "[FILL IN] Mycorrhizal associations (AM and EM fungi); nitrogen-fixing root nodule bacteria (Rhizobium); epiphytic relationships.",
+    "associated_species": []
+  },
+  "uses": {
+    "cultural": "[FILL IN] Flowers central to human culture: ceremonies, art, religion, perfumery.",
+    "food": "[FILL IN] The majority of human food crops are angiosperms: cereals (grasses), legumes, fruits, vegetables, spices, oils.",
+    "medicinal": "[FILL IN] Source of a vast array of pharmaceuticals and traditional medicines.",
+    "horticultural": "[FILL IN] Ornamental horticulture almost entirely based on angiosperms.",
+    "economic": "[FILL IN] Timber (hardwoods), cotton, rubber, dyes, and countless other commercial products."
+  },
+  "cultivation": {
+    "hardiness_zones": "[FILL IN — varies enormously by species]",
+    "soil": "[FILL IN — varies by species]",
+    "light": "[FILL IN — varies by species]",
+    "watering": "[FILL IN — varies by species]",
+    "propagation": "[FILL IN — seed, cuttings, division, grafting, tissue culture, etc.]",
+    "notes": "[FILL IN]"
+  },
+  "threats_and_conservation": "[FILL IN]",
+  "notable_species": [
+    {
+      "scientific_name": "[FILL IN]",
+      "common_name": "[FILL IN]",
+      "notes": "[FILL IN]"
+    }
+  ],
+  "genera_to_add": [
+    "[FILL IN — list genera for individual entries, e.g., Rosa, Quercus, Orchidaceae genera, etc.]"
+  ],
+  "gallery": [
+    {
+      "filename": "[FILL IN]",
+      "caption": "[FILL IN]",
+      "credit": "[FILL IN]",
+      "license": "[FILL IN]"
+    }
+  ],
+  "references": [
+    "[FILL IN citation 1]",
+    "[FILL IN citation 2]"
+  ],
+  "external_links": [
+    {
+      "label": "Angiosperms — Plants of the World Online",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30000004-2"
+    },
+    {
+      "label": "Angiosperm Phylogeny Website",
+      "url": "http://www.mobot.org/MOBOT/research/APweb/"
+    }
+  ],
+  "categories": [
+    "Flowering plants",
+    "Angiosperms",
+    "Vascular plants",
+    "Seed plants"
+  ],
+  "last_edited": "2026-06-22"
+}

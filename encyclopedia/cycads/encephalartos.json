@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schema/plant-entry.schema.json",
+  "id": "encephalartos",
+  "type": "genus",
+  "name": "Encephalartos",
+  "scientific_name": "Encephalartos",
+  "authority": "Lehm.",
+  "taxonomy": {
+    "kingdom": "Plantae",
+    "division": "Cycadophyta",
+    "class": "Cycadopsida",
+    "order": "Cycadales",
+    "family": "Zamiaceae",
+    "genus": "Encephalartos",
+    "species": []
+  },
+  "description": "[FILL IN] Encephalartos is a genus of cycads native to Africa, belonging to the family Zamiaceae. Commonly known as bread palms or bread trees (referring to the starchy pith used as food), these dioecious gymnosperms are among the most threatened plant groups in the world. Several species are extinct in the wild.",
+  "etymology": "[FILL IN] The genus name derives from the Greek words 'en' (within), 'kephale' (head), and 'artos' (bread), referring to the starchy pith found within the trunk.",
+  "conservation_status": {
+    "status": "Varies by species",
+    "notes": "[FILL IN] Many species are Critically Endangered or Endangered. Encephalartos woodii is extinct in the wild. Over-collection for the horticultural trade is a major threat."
+  },
+  "distribution": {
+    "native_range": [],
+    "habitat": "[FILL IN] Grasslands, bushveld, rocky hillsides, and forest margins.",
+    "altitude_range_m": "[FILL IN]"
+  },
+  "morphology": {
+    "growth_form": "[FILL IN] Arborescent or acaulescent (stemless) cycad.",
+    "height_m": "[FILL IN]",
+    "stem": "[FILL IN] Stout trunk, erect or subterranean; persistent armoured leaf bases.",
+    "leaves": "[FILL IN] Pinnately compound; leaflets stiff, spine-tipped in many species; arranged in a crown.",
+    "reproductive_structures": "[FILL IN] Dioecious; both male and female cones are large, usually brightly coloured (yellow, red, or green) strobili.",
+    "seeds_or_spores": "[FILL IN] Large seeds with a fleshy outer sarcotesta, usually orange or red when ripe.",
+    "roots": "[FILL IN] Coralloid roots hosting nitrogen-fixing cyanobacteria present."
+  },
+  "ecology": {
+    "pollination": "[FILL IN] Primarily by weevils (family Curculionidae); heat and scent generation by cones attracts pollinators.",
+    "seed_dispersal": "[FILL IN] Birds and mammals attracted to the brightly coloured, fleshy sarcotesta.",
+    "symbioses": "[FILL IN] Nitrogen-fixing cyanobacteria (Nostoc) in coralloid roots.",
+    "associated_species": []
+  },
+  "uses": {
+    "cultural": "[FILL IN]",
+    "food": "[FILL IN] Starchy pith of the trunk processed and used as food ('cycad bread') by indigenous people after detoxification.",
+    "medicinal": "[FILL IN]",
+    "horticultural": "[FILL IN] Highly prized by collectors; slow-growing, long-lived plants command high prices.",
+    "economic": "[FILL IN]"
+  },
+  "cultivation": {
+    "hardiness_zones": "[FILL IN]",
+    "soil": "[FILL IN] Well-drained soil; many tolerate rocky, nutrient-poor substrates.",
+    "light": "[FILL IN] Full sun.",
+    "watering": "[FILL IN] Drought-tolerant; water sparingly in winter.",
+    "propagation": "[FILL IN] By seed; offsets rarely produced in most species.",
+    "notes": "[FILL IN] CITES Appendix I listing restricts international trade; all parts toxic."
+  },
+  "threats_and_conservation": "[FILL IN]",
+  "notable_species": [
+    {
+      "scientific_name": "Encephalartos woodii",
+      "common_name": "Wood's cycad",
+      "notes": "[FILL IN] Extinct in the wild; all surviving specimens are male clones."
+    },
+    {
+      "scientific_name": "Encephalartos altensteinii",
+      "common_name": "Prickly cycad / Eastern Cape cycad",
+      "notes": "[FILL IN]"
+    },
+    {
+      "scientific_name": "Encephalartos transvenosus",
+      "common_name": "Modjadji cycad",
+      "notes": "[FILL IN]"
+    }
+  ],
+  "gallery": [
+    {
+      "filename": "[FILL IN]",
+      "caption": "[FILL IN]",
+      "credit": "[FILL IN]",
+      "license": "[FILL IN]"
+    }
+  ],
+  "references": [
+    "[FILL IN citation 1]",
+    "[FILL IN citation 2]"
+  ],
+  "external_links": [
+    {
+      "label": "Encephalartos — Plants of the World Online",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30001527-2"
+    },
+    {
+      "label": "Encephalartos — IUCN Red List",
+      "url": "https://www.iucnredlist.org/search?query=encephalartos&searchType=species"
+    }
+  ],
+  "categories": [
+    "Cycads",
+    "Zamiaceae",
+    "Gymnosperms",
+    "African plants",
+    "Endangered species"
+  ],
+  "last_edited": "2026-06-22"
+}
