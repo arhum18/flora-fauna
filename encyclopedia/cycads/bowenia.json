@@ -1,0 +1,101 @@
+{
+  "$schema": "../../schema/plant-entry.schema.json",
+  "id": "bowenia",
+  "type": "genus",
+  "name": "Bowenia",
+  "scientific_name": "Bowenia",
+  "authority": "Hook. ex Hook.f.",
+  "taxonomy": {
+    "kingdom": "Plantae",
+    "division": "Cycadophyta",
+    "class": "Cycadopsida",
+    "order": "Cycadales",
+    "family": "Stangeriaceae",
+    "genus": "Bowenia",
+    "species": ["Bowenia spectabilis", "Bowenia serrulata"]
+  },
+  "description": "[FILL IN] Bowenia is a genus of cycads in the family Stangeriaceae, endemic to Queensland, Australia. It is one of only two genera in Stangeriaceae and is unique among all living cycads in having bipinnate (twice-divided) leaves rather than the pinnate leaves typical of the order. The genus contains only two species and is restricted to rainforest and adjacent habitats in tropical and subtropical Queensland.",
+  "etymology": "[FILL IN] Named in honour of Sir George Ferguson Bowen (1821–1899), first Governor of Queensland.",
+  "conservation_status": {
+    "status": "Varies by species",
+    "notes": "[FILL IN] B. serrulata is listed as Vulnerable in Queensland. Both species are protected under Australian law and CITES Appendix II."
+  },
+  "distribution": {
+    "native_range": ["Australia (Queensland)"],
+    "habitat": "[FILL IN] Tropical and subtropical rainforest; seasonally dry vine thickets.",
+    "altitude_range_m": "[FILL IN]"
+  },
+  "morphology": {
+    "growth_form": "[FILL IN] Small, largely subterranean cycad.",
+    "height_m": "[FILL IN] Leaves 1–2 m long; stem subterranean.",
+    "stem": "[FILL IN] Subterranean, tuber-like stem.",
+    "leaves": "[FILL IN] Uniquely bipinnate (twice compound) among cycads; leaflets ovate to lanceolate; bright green and glossy.",
+    "reproductive_structures": "[FILL IN] Dioecious; cones produced at or near soil level; male cones small and cylindrical; female cones ovoid.",
+    "seeds_or_spores": "[FILL IN] Seeds with reddish or orange fleshy sarcotesta.",
+    "roots": "[FILL IN] Coralloid roots with nitrogen-fixing cyanobacteria."
+  },
+  "ecology": {
+    "pollination": "[FILL IN] Insect-pollinated (thrips).",
+    "seed_dispersal": "[FILL IN] Vertebrate-dispersed; small mammals and birds consume the fleshy sarcotesta.",
+    "symbioses": "[FILL IN] Nitrogen-fixing cyanobacteria in coralloid roots.",
+    "associated_species": []
+  },
+  "uses": {
+    "cultural": "[FILL IN] Seeds reportedly used as food by Aboriginal peoples after processing.",
+    "food": "[FILL IN]",
+    "medicinal": "[FILL IN]",
+    "horticultural": "[FILL IN] Cultivated as an unusual ornamental; bipinnate foliage is distinctive.",
+    "economic": "[FILL IN]"
+  },
+  "cultivation": {
+    "hardiness_zones": "[FILL IN]",
+    "soil": "[FILL IN] Rich, moist, well-drained soil with high organic matter.",
+    "light": "[FILL IN] Shade to partial shade; rainforest understory conditions.",
+    "watering": "[FILL IN] Regular watering; prefers consistent moisture.",
+    "propagation": "[FILL IN] Seed.",
+    "notes": "[FILL IN] CITES Appendix II; unique bipinnate foliage is the defining characteristic."
+  },
+  "threats_and_conservation": "[FILL IN]",
+  "notable_species": [
+    {
+      "scientific_name": "Bowenia spectabilis",
+      "common_name": "Byfield fern cycad",
+      "notes": "[FILL IN] Found in tropical rainforests of north Queensland."
+    },
+    {
+      "scientific_name": "Bowenia serrulata",
+      "common_name": "Zamia fern",
+      "notes": "[FILL IN] More southerly distribution; serrated leaflets distinguish it from B. spectabilis."
+    }
+  ],
+  "gallery": [
+    {
+      "filename": "[FILL IN]",
+      "caption": "[FILL IN]",
+      "credit": "[FILL IN]",
+      "license": "[FILL IN]"
+    }
+  ],
+  "references": [
+    "[FILL IN citation 1]",
+    "[FILL IN citation 2]"
+  ],
+  "external_links": [
+    {
+      "label": "Bowenia — Plants of the World Online",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30001524-2"
+    },
+    {
+      "label": "Bowenia — IUCN Red List",
+      "url": "https://www.iucnredlist.org/search?query=bowenia&searchType=species"
+    }
+  ],
+  "categories": [
+    "Cycads",
+    "Stangeriaceae",
+    "Gymnosperms",
+    "Australian endemic plants",
+    "Bipinnate-leaved plants"
+  ],
+  "last_edited": "2026-06-22"
+}

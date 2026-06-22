@@ -1,0 +1,270 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/arhum18/flora-fauna/schema/plant-entry.schema.json",
+  "title": "PlantEncyclopediaEntry",
+  "description": "Wikipedia-style encyclopedia entry schema for a plant genus or species.",
+  "type": "object",
+  "required": ["id", "type", "name", "scientific_name", "taxonomy", "description"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for this entry (e.g., 'cycas', 'encephalartos')."
+    },
+    "type": {
+      "type": "string",
+      "enum": ["genus", "species", "family", "order", "class", "division", "category"],
+      "description": "The taxonomic rank or entry type this record represents."
+    },
+    "name": {
+      "type": "string",
+      "description": "Common name of the genus or species."
+    },
+    "scientific_name": {
+      "type": "string",
+      "description": "Italicised Latin scientific name (genus or genus + species epithet)."
+    },
+    "authority": {
+      "type": "string",
+      "description": "Taxonomic authority who first described the taxon (e.g., 'L.' for Linnaeus)."
+    },
+    "taxonomy": {
+      "type": "object",
+      "description": "Full taxonomic classification.",
+      "properties": {
+        "kingdom":    { "type": "string" },
+        "division":   { "type": "string", "description": "Also called Phylum in some classifications." },
+        "class":      { "type": "string" },
+        "order":      { "type": "string" },
+        "family":     { "type": "string" },
+        "genus":      { "type": "string" },
+        "species":    {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "List of accepted species within this genus (leave empty if entry is for a species)."
+        }
+      },
+      "required": ["kingdom", "division", "class", "order", "family", "genus"]
+    },
+    "description": {
+      "type": "string",
+      "description": "Opening encyclopedic summary paragraph (Wikipedia lead section style)."
+    },
+    "etymology": {
+      "type": "string",
+      "description": "Origin and meaning of the scientific name."
+    },
+    "conservation_status": {
+      "type": "object",
+      "description": "IUCN Red List conservation status.",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "Extinct (EX)",
+            "Extinct in the Wild (EW)",
+            "Critically Endangered (CR)",
+            "Endangered (EN)",
+            "Vulnerable (VU)",
+            "Near Threatened (NT)",
+            "Least Concern (LC)",
+            "Data Deficient (DD)",
+            "Not Evaluated (NE)",
+            "Varies by species"
+          ]
+        },
+        "notes": {
+          "type": "string",
+          "description": "Additional conservation notes or per-species variation details."
+        }
+      }
+    },
+    "distribution": {
+      "type": "object",
+      "description": "Geographic and habitat distribution.",
+      "properties": {
+        "native_range": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "List of countries or regions where the taxon is native."
+        },
+        "habitat": {
+          "type": "string",
+          "description": "Typical habitat description (e.g., tropical rainforest, savanna, rocky slopes)."
+        },
+        "altitude_range_m": {
+          "type": "string",
+          "description": "Altitudinal range in metres (e.g., '0–2000 m')."
+        }
+      }
+    },
+    "morphology": {
+      "type": "object",
+      "description": "Physical characteristics of the plant.",
+      "properties": {
+        "growth_form": {
+          "type": "string",
+          "description": "General growth form (e.g., tree, shrub, herb, climber)."
+        },
+        "height_m": {
+          "type": "string",
+          "description": "Typical height range in metres (e.g., '1–5 m')."
+        },
+        "stem": {
+          "type": "string",
+          "description": "Description of the stem or trunk."
+        },
+        "leaves": {
+          "type": "string",
+          "description": "Description of the leaves (shape, arrangement, texture, colour)."
+        },
+        "reproductive_structures": {
+          "type": "string",
+          "description": "Cones (gymnosperms), flowers (angiosperms), sporangia (bryophytes/ferns), etc."
+        },
+        "seeds_or_spores": {
+          "type": "string",
+          "description": "Description of seeds, fruits, or spores."
+        },
+        "roots": {
+          "type": "string",
+          "description": "Root system description, including specialised structures (e.g., coralloid roots in cycads)."
+        }
+      }
+    },
+    "ecology": {
+      "type": "object",
+      "description": "Ecological relationships and life history.",
+      "properties": {
+        "pollination": {
+          "type": "string",
+          "description": "Pollination mechanism (e.g., wind, insect, specific pollinator)."
+        },
+        "seed_dispersal": {
+          "type": "string",
+          "description": "Seed or spore dispersal mechanism."
+        },
+        "symbioses": {
+          "type": "string",
+          "description": "Notable symbiotic relationships (e.g., cyanobacterial nitrogen fixation in cycads)."
+        },
+        "associated_species": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Notable associated or dependent species."
+        }
+      }
+    },
+    "uses": {
+      "type": "object",
+      "description": "Human uses of the plant.",
+      "properties": {
+        "cultural": {
+          "type": "string",
+          "description": "Cultural, ceremonial, or traditional significance."
+        },
+        "food": {
+          "type": "string",
+          "description": "Edible parts and food preparation methods."
+        },
+        "medicinal": {
+          "type": "string",
+          "description": "Traditional or modern medicinal uses."
+        },
+        "horticultural": {
+          "type": "string",
+          "description": "Use in gardens, landscaping, or as ornamental plants."
+        },
+        "economic": {
+          "type": "string",
+          "description": "Commercial or industrial uses."
+        }
+      }
+    },
+    "cultivation": {
+      "type": "object",
+      "description": "Guidance for cultivating the plant.",
+      "properties": {
+        "hardiness_zones": {
+          "type": "string",
+          "description": "USDA or RHS hardiness zone range."
+        },
+        "soil": {
+          "type": "string",
+          "description": "Preferred soil type and drainage."
+        },
+        "light": {
+          "type": "string",
+          "description": "Light requirements (e.g., full sun, partial shade)."
+        },
+        "watering": {
+          "type": "string",
+          "description": "Watering needs and drought tolerance."
+        },
+        "propagation": {
+          "type": "string",
+          "description": "Common propagation methods (seeds, offsets, cuttings, tissue culture)."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Additional cultivation notes or common problems."
+        }
+      }
+    },
+    "threats_and_conservation": {
+      "type": "string",
+      "description": "Detailed description of threats (habitat loss, over-collection, climate change) and conservation measures."
+    },
+    "notable_species": {
+      "type": "array",
+      "description": "A curated list of the most notable or well-known species within the genus.",
+      "items": {
+        "type": "object",
+        "required": ["scientific_name"],
+        "properties": {
+          "scientific_name": { "type": "string" },
+          "common_name":     { "type": "string" },
+          "notes":           { "type": "string" }
+        }
+      }
+    },
+    "gallery": {
+      "type": "array",
+      "description": "Placeholder list of images for the entry.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "filename":    { "type": "string" },
+          "caption":     { "type": "string" },
+          "credit":      { "type": "string" },
+          "license":     { "type": "string" }
+        }
+      }
+    },
+    "references": {
+      "type": "array",
+      "description": "Bibliographic references in citation style.",
+      "items": { "type": "string" }
+    },
+    "external_links": {
+      "type": "array",
+      "description": "External web resources (e.g., IUCN, Plants of the World Online, GBIF).",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": { "type": "string" },
+          "url":   { "type": "string", "format": "uri" }
+        }
+      }
+    },
+    "categories": {
+      "type": "array",
+      "description": "Encyclopedic category tags for this entry.",
+      "items": { "type": "string" }
+    },
+    "last_edited": {
+      "type": "string",
+      "format": "date",
+      "description": "Date this entry was last edited (YYYY-MM-DD)."
+    }
+  }
+}

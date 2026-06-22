@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schema/plant-entry.schema.json",
+  "id": "microcycas",
+  "type": "genus",
+  "name": "Microcycas",
+  "scientific_name": "Microcycas",
+  "authority": "(Miq.) A.DC.",
+  "taxonomy": {
+    "kingdom": "Plantae",
+    "division": "Cycadophyta",
+    "class": "Cycadopsida",
+    "order": "Cycadales",
+    "family": "Zamiaceae",
+    "genus": "Microcycas",
+    "species": ["Microcycas calocoma"]
+  },
+  "description": "[FILL IN] Microcycas is a monotypic genus containing only a single species, Microcycas calocoma, known as the cork palm or palma corcho. It is endemic to the western regions of Cuba, particularly the Pinar del Río province. It is one of the rarest and most threatened cycads in the world, with populations severely reduced by habitat loss and over-collection.",
+  "etymology": "[FILL IN] From the Greek 'mikros' (small) and 'Cycas', referring to its resemblance to Cycas but smaller stature; the species epithet 'calocoma' means beautiful hair, referring to the leaf crown.",
+  "conservation_status": {
+    "status": "Endangered (EN)",
+    "notes": "[FILL IN] Listed as Endangered by the IUCN; restricted to a small area in western Cuba. CITES Appendix I."
+  },
+  "distribution": {
+    "native_range": ["Cuba (Pinar del Río province)"],
+    "habitat": "[FILL IN] Semi-deciduous and evergreen forest on sandy and rocky soils in western Cuba.",
+    "altitude_range_m": "[FILL IN]"
+  },
+  "morphology": {
+    "growth_form": "[FILL IN] Slender arborescent cycad with a tall, narrow trunk.",
+    "height_m": "[FILL IN] Up to 10 m.",
+    "stem": "[FILL IN] Slender, elongated trunk; distinctive among cycads for its cork-like bark texture.",
+    "leaves": "[FILL IN] Pinnately compound; leaflets narrow, lanceolate, dark green and glossy.",
+    "reproductive_structures": "[FILL IN] Dioecious; produces multiple small cones per plant simultaneously, unusual among cycads.",
+    "seeds_or_spores": "[FILL IN] Seeds with fleshy, coloured sarcotesta.",
+    "roots": "[FILL IN] Coralloid roots with nitrogen-fixing cyanobacteria."
+  },
+  "ecology": {
+    "pollination": "[FILL IN] Insect-pollinated.",
+    "seed_dispersal": "[FILL IN] Vertebrate-dispersed.",
+    "symbioses": "[FILL IN] Nitrogen-fixing cyanobacteria in coralloid roots.",
+    "associated_species": []
+  },
+  "uses": {
+    "cultural": "[FILL IN] National symbol-level importance in Cuba; associated with the Viñales Valley landscape.",
+    "food": "[FILL IN]",
+    "medicinal": "[FILL IN]",
+    "horticultural": "[FILL IN] Rare in cultivation; held at a small number of botanical gardens.",
+    "economic": "[FILL IN]"
+  },
+  "cultivation": {
+    "hardiness_zones": "[FILL IN]",
+    "soil": "[FILL IN] Sandy, well-drained soil.",
+    "light": "[FILL IN] Full sun.",
+    "watering": "[FILL IN] Moderate.",
+    "propagation": "[FILL IN] Seed; difficult to propagate.",
+    "notes": "[FILL IN] CITES Appendix I; extremely rare in cultivation."
+  },
+  "threats_and_conservation": "[FILL IN]",
+  "notable_species": [
+    {
+      "scientific_name": "Microcycas calocoma",
+      "common_name": "Cork palm / Palma corcho",
+      "notes": "[FILL IN] The only species in the genus; endemic to Cuba."
+    }
+  ],
+  "gallery": [
+    {
+      "filename": "[FILL IN]",
+      "caption": "[FILL IN]",
+      "credit": "[FILL IN]",
+      "license": "[FILL IN]"
+    }
+  ],
+  "references": [
+    "[FILL IN citation 1]",
+    "[FILL IN citation 2]"
+  ],
+  "external_links": [
+    {
+      "label": "Microcycas — Plants of the World Online",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30001531-2"
+    },
+    {
+      "label": "Microcycas calocoma — IUCN Red List",
+      "url": "https://www.iucnredlist.org/species/41872/2960401"
+    }
+  ],
+  "categories": [
+    "Cycads",
+    "Zamiaceae",
+    "Gymnosperms",
+    "Cuban endemic plants",
+    "Monotypic genera",
+    "Endangered species"
+  ],
+  "last_edited": "2026-06-22"
+}

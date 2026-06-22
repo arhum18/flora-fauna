@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schema/plant-entry.schema.json",
+  "id": "dioon",
+  "type": "genus",
+  "name": "Dioon",
+  "scientific_name": "Dioon",
+  "authority": "Lindl.",
+  "taxonomy": {
+    "kingdom": "Plantae",
+    "division": "Cycadophyta",
+    "class": "Cycadopsida",
+    "order": "Cycadales",
+    "family": "Zamiaceae",
+    "genus": "Dioon",
+    "species": []
+  },
+  "description": "[FILL IN] Dioon is a genus of cycads in the family Zamiaceae, native to Mexico and Central America. Species are typically found in dry to semi-arid mountainous habitats and are among the most drought-tolerant of all cycads. The genus is notable for producing some of the largest and heaviest cycad cones known, and individual plants can live for over a thousand years.",
+  "etymology": "[FILL IN] From the Greek 'di' (two) and 'oon' (egg), referring to the paired ovules on each megasporophyll.",
+  "conservation_status": {
+    "status": "Varies by species",
+    "notes": "[FILL IN] Most species are threatened; several are Endangered or Critically Endangered due to over-collection and habitat loss."
+  },
+  "distribution": {
+    "native_range": [],
+    "habitat": "[FILL IN] Dry to semi-arid tropical forests, oak-pine forests, rocky limestone hillsides.",
+    "altitude_range_m": "[FILL IN]"
+  },
+  "morphology": {
+    "growth_form": "[FILL IN] Arborescent cycad; stout trunk.",
+    "height_m": "[FILL IN]",
+    "stem": "[FILL IN] Erect, stout, armoured cylindrical trunk.",
+    "leaves": "[FILL IN] Pinnately compound; leaflets stiff and spine-tipped; bluish-green or grey-green in many species.",
+    "reproductive_structures": "[FILL IN] Dioecious; produces very large cones — female cones among the largest of any cycad, weighing up to 20 kg in D. spinulosum.",
+    "seeds_or_spores": "[FILL IN] Large seeds with hard, cream-coloured to white sarcotesta.",
+    "roots": "[FILL IN] Coralloid roots with nitrogen-fixing cyanobacteria."
+  },
+  "ecology": {
+    "pollination": "[FILL IN] Insect-pollinated (weevils recorded in some species).",
+    "seed_dispersal": "[FILL IN] Vertebrate-dispersed; large mammals and birds may consume seeds.",
+    "symbioses": "[FILL IN] Nitrogen-fixing cyanobacteria in coralloid roots.",
+    "associated_species": []
+  },
+  "uses": {
+    "cultural": "[FILL IN] Seeds used in traditional ceremonies and as food sources by local communities.",
+    "food": "[FILL IN] Seeds (tortillas) processed to remove cycasin toxins; used in some indigenous Mexican communities.",
+    "medicinal": "[FILL IN]",
+    "horticultural": "[FILL IN] Prized by collectors; extremely slow growing and long-lived.",
+    "economic": "[FILL IN]"
+  },
+  "cultivation": {
+    "hardiness_zones": "[FILL IN]",
+    "soil": "[FILL IN] Well-drained, gritty or sandy soil; tolerates alkaline substrates.",
+    "light": "[FILL IN] Full sun.",
+    "watering": "[FILL IN] Very drought-tolerant; water sparingly.",
+    "propagation": "[FILL IN] Seed; very slow germination.",
+    "notes": "[FILL IN] CITES Appendix I or II; some of the longest-lived plants in the world."
+  },
+  "threats_and_conservation": "[FILL IN]",
+  "notable_species": [
+    {
+      "scientific_name": "Dioon edule",
+      "common_name": "Chestnut dioon / Virgin's palm",
+      "notes": "[FILL IN]"
+    },
+    {
+      "scientific_name": "Dioon spinulosum",
+      "common_name": "Giant dioon",
+      "notes": "[FILL IN] Produces the world's heaviest cycad cones."
+    },
+    {
+      "scientific_name": "Dioon mejiae",
+      "common_name": "Honduras dioon",
+      "notes": "[FILL IN]"
+    }
+  ],
+  "gallery": [
+    {
+      "filename": "[FILL IN]",
+      "caption": "[FILL IN]",
+      "credit": "[FILL IN]",
+      "license": "[FILL IN]"
+    }
+  ],
+  "references": [
+    "[FILL IN citation 1]",
+    "[FILL IN citation 2]"
+  ],
+  "external_links": [
+    {
+      "label": "Dioon — Plants of the World Online",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30001528-2"
+    },
+    {
+      "label": "Dioon — IUCN Red List",
+      "url": "https://www.iucnredlist.org/search?query=dioon&searchType=species"
+    }
+  ],
+  "categories": [
+    "Cycads",
+    "Zamiaceae",
+    "Gymnosperms",
+    "Mexican plants",
+    "Drought-tolerant plants",
+    "Long-lived plants"
+  ],
+  "last_edited": "2026-06-22"
+}

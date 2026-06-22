@@ -1,0 +1,124 @@
+{
+  "$schema": "../../schema/plant-entry.schema.json",
+  "id": "conifers-category",
+  "type": "category",
+  "name": "Conifers",
+  "scientific_name": "Pinophyta",
+  "authority": "",
+  "taxonomy": {
+    "kingdom": "Plantae",
+    "division": "Pinophyta (Coniferophyta)",
+    "class": "Pinopsida",
+    "order": "[FILL IN — Pinales, Araucariales, Cupressales, etc.]",
+    "family": "[FILL IN — Pinaceae, Cupressaceae, Araucariaceae, Taxaceae, Podocarpaceae, Sciadopityaceae]",
+    "genus": "[FILL IN — multiple genera]",
+    "species": []
+  },
+  "description": "[FILL IN] Conifers (division Pinophyta) are a group of vascular, cone-bearing seed plants (gymnosperms) comprising approximately 630 species in around 70 genera and 6–8 families. They are among the most ecologically and economically significant plants on Earth, dominating vast boreal and montane forest ecosystems (taiga) and providing the majority of the world's commercial timber and paper. Conifers are characterised by needle-like or scale-like leaves, monoecious or dioecious habit, and seeds borne on the scales of woody cones (or fleshy cone-like structures in yews and podocarpus). They include the world's tallest (coast redwood, Sequoia sempervirens), most massive (giant sequoia, Sequoiadendron giganteum), and oldest (bristlecone pine, Pinus longaeva) known living trees.",
+  "etymology": "[FILL IN] 'Conifer' derives from the Latin 'conus' (cone) and 'ferre' (to bear), meaning cone-bearing.",
+  "conservation_status": {
+    "status": "Varies by species",
+    "notes": "[FILL IN] About 34% of conifer species are classified as threatened by the IUCN. Particularly threatened groups include Pacific island species and those with very restricted ranges."
+  },
+  "distribution": {
+    "native_range": ["Worldwide except Antarctica"],
+    "habitat": "[FILL IN] Boreal forest (taiga), temperate rainforest, montane forest, Mediterranean scrub, tropical highland forest.",
+    "altitude_range_m": "[FILL IN] Sea level to treeline (~4,500 m in some tropical mountains)."
+  },
+  "morphology": {
+    "growth_form": "[FILL IN] Predominantly trees; some shrubby forms (e.g., juniper, mugo pine); usually evergreen, some deciduous (Larix, Metasequoia, Taxodium).",
+    "height_m": "[FILL IN] From prostrate shrubs to over 115 m (Sequoia sempervirens).",
+    "stem": "[FILL IN] Woody trunk; monopodia growth form; resinous bark in most.",
+    "leaves": "[FILL IN] Needle-like (Pinus, Abies), scale-like (Cupressus, Thuja), or awl-shaped (Juniperus); usually persistent and evergreen; some broad and flat (Podocarpus, Agathis).",
+    "reproductive_structures": "[FILL IN] Monoecious or dioecious; pollen cones small; seed cones woody (Pinaceae, Cupressaceae) or fleshy/berry-like (Taxaceae — arils; Podocarpaceae — podocarpium).",
+    "seeds_or_spores": "[FILL IN] Seeds winged (wind-dispersed) or fleshy-coated (animal-dispersed); not enclosed in a true fruit.",
+    "roots": "[FILL IN] Ectomycorrhizal associations nearly universal; taproot system in many species."
+  },
+  "ecology": {
+    "pollination": "[FILL IN] Wind-pollinated; pollen produced in enormous quantities in spring.",
+    "seed_dispersal": "[FILL IN] Wind (winged seeds), birds (crossbills, nutcrackers), mammals (squirrels, corvids); some serotinous cones require fire to open.",
+    "symbioses": "[FILL IN] Obligate ectomycorrhizal associations with diverse fungi (Suillus, Amanita, Boletus, etc.).",
+    "associated_species": []
+  },
+  "uses": {
+    "cultural": "[FILL IN] Christmas trees; bonsai (especially pine); cultural symbols in many societies.",
+    "food": "[FILL IN] Pine nuts (Pinus pinea, P. edulis); bark flour (emergency food in some cultures); juniper berries used in flavouring gin.",
+    "medicinal": "[FILL IN] Turpentine, resin products; taxol (anti-cancer compound) from Taxus; various traditional uses.",
+    "horticultural": "[FILL IN] Widely used in landscaping; topiary (yew, Taxus); dwarf cultivars for rock gardens.",
+    "economic": "[FILL IN] Primary source of softwood lumber and paper pulp; resin, turpentine, rosin; essential oils (pine, cedar, cypress)."
+  },
+  "cultivation": {
+    "hardiness_zones": "[FILL IN — varies by species; many are cold-hardy to zone 2–3]",
+    "soil": "[FILL IN] Most prefer well-drained, slightly acidic soils.",
+    "light": "[FILL IN] Generally full sun.",
+    "watering": "[FILL IN] Most drought-tolerant once established.",
+    "propagation": "[FILL IN] Seed; grafting for cultivars; cuttings for cypress/juniper.",
+    "notes": "[FILL IN]"
+  },
+  "threats_and_conservation": "[FILL IN]",
+  "notable_species": [
+    {
+      "scientific_name": "Pinus sylvestris",
+      "common_name": "Scots pine",
+      "notes": "[FILL IN] Most widely distributed conifer; native from Scotland to eastern Siberia."
+    },
+    {
+      "scientific_name": "Sequoia sempervirens",
+      "common_name": "Coast redwood",
+      "notes": "[FILL IN] World's tallest living tree; native to coastal California and Oregon."
+    },
+    {
+      "scientific_name": "Pinus longaeva",
+      "common_name": "Great Basin bristlecone pine",
+      "notes": "[FILL IN] World's oldest known living tree (Methuselah, ~4,850 years old)."
+    },
+    {
+      "scientific_name": "Araucaria araucana",
+      "common_name": "Monkey puzzle tree",
+      "notes": "[FILL IN] Endangered; native to Chile and Argentina; distinctive architectural form."
+    },
+    {
+      "scientific_name": "Taxus baccata",
+      "common_name": "European yew",
+      "notes": "[FILL IN] Source of taxol; extremely long-lived; native to Europe, N Africa, W Asia."
+    }
+  ],
+  "genera_to_add": [
+    "[FILL IN — e.g., Pinus, Abies, Picea, Larix, Cedrus, Cupressus, Juniperus, Taxus, Sequoia, Araucaria, Podocarpus, Agathis, etc.]"
+  ],
+  "gallery": [
+    {
+      "filename": "[FILL IN]",
+      "caption": "[FILL IN]",
+      "credit": "[FILL IN]",
+      "license": "[FILL IN]"
+    }
+  ],
+  "references": [
+    "[FILL IN citation 1]",
+    "[FILL IN citation 2]"
+  ],
+  "external_links": [
+    {
+      "label": "Pinophyta — Plants of the World Online",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30000057-2"
+    },
+    {
+      "label": "Conifers — Gymnosperm Database",
+      "url": "https://www.conifers.org/"
+    },
+    {
+      "label": "Conifers — IUCN Red List",
+      "url": "https://www.iucnredlist.org/search?query=conifers&searchType=species"
+    }
+  ],
+  "categories": [
+    "Conifers",
+    "Gymnosperms",
+    "Pinophyta",
+    "Vascular plants",
+    "Seed plants",
+    "Timber trees"
+  ],
+  "last_edited": "2026-06-22"
+}

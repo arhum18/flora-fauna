@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schema/plant-entry.schema.json",
+  "id": "cycas",
+  "type": "genus",
+  "name": "Cycas",
+  "scientific_name": "Cycas",
+  "authority": "L.",
+  "taxonomy": {
+    "kingdom": "Plantae",
+    "division": "Cycadophyta",
+    "class": "Cycadopsida",
+    "order": "Cycadales",
+    "family": "Cycadaceae",
+    "genus": "Cycas",
+    "species": []
+  },
+  "description": "[FILL IN] Cycas is the type genus of the family Cycadaceae and the only genus in that family. Cycas species are among the most ancient seed plants still living today, with a fossil record extending back to the Permian period. They are dioecious, palm-like gymnosperms native to tropical and subtropical regions across Africa, Asia, and the Pacific.",
+  "etymology": "[FILL IN] The name Cycas derives from the Greek word 'kykas', used by Theophrastus to describe a palm-like tree.",
+  "conservation_status": {
+    "status": "Varies by species",
+    "notes": "[FILL IN] Many species are listed as Threatened or Endangered on the IUCN Red List. C. revoluta is Least Concern in cultivation but threatened in the wild."
+  },
+  "distribution": {
+    "native_range": [],
+    "habitat": "[FILL IN]",
+    "altitude_range_m": "[FILL IN]"
+  },
+  "morphology": {
+    "growth_form": "[FILL IN] Palm-like perennial shrub or tree.",
+    "height_m": "[FILL IN]",
+    "stem": "[FILL IN] Stout, cylindrical trunk covered in persistent leaf-base scars; may be subterranean to several metres tall.",
+    "leaves": "[FILL IN] Pinnately compound, stiff, dark-green fronds arising in a crown; leaflets linear to lanceolate.",
+    "reproductive_structures": "[FILL IN] Female plants bear loose, leaf-like megasporophylls (no closed cone); male plants produce erect, compact pollen cones (strobili).",
+    "seeds_or_spores": "[FILL IN] Large, fleshy seeds; testa brightly coloured when ripe (red, orange, or yellow in many species).",
+    "roots": "[FILL IN] Taproot with lateral roots; specialised coralloid roots near the soil surface harbour nitrogen-fixing cyanobacteria (Nostoc spp.)."
+  },
+  "ecology": {
+    "pollination": "[FILL IN] Primarily insect-pollinated (thrips and weevils in many species); some wind pollination also occurs.",
+    "seed_dispersal": "[FILL IN] Seeds dispersed by vertebrates (birds, mammals, bats) attracted to the fleshy sarcotesta.",
+    "symbioses": "[FILL IN] Obligate association with nitrogen-fixing cyanobacteria (Nostoc) in specialised coralloid roots.",
+    "associated_species": []
+  },
+  "uses": {
+    "cultural": "[FILL IN]",
+    "food": "[FILL IN] Seeds and pith contain starch; processed to remove cycasin toxins for use as food in some cultures.",
+    "medicinal": "[FILL IN]",
+    "horticultural": "[FILL IN] Cycas revoluta widely cultivated worldwide as an ornamental (sago palm).",
+    "economic": "[FILL IN]"
+  },
+  "cultivation": {
+    "hardiness_zones": "[FILL IN]",
+    "soil": "[FILL IN] Well-drained, sandy or loamy soil; tolerates poor soils.",
+    "light": "[FILL IN] Full sun to partial shade.",
+    "watering": "[FILL IN] Drought-tolerant once established; avoid waterlogging.",
+    "propagation": "[FILL IN] By seed or offsets (pups).",
+    "notes": "[FILL IN] All parts are toxic if ingested; wear gloves when handling."
+  },
+  "threats_and_conservation": "[FILL IN]",
+  "notable_species": [
+    {
+      "scientific_name": "Cycas revoluta",
+      "common_name": "Sago palm / Japanese sago palm",
+      "notes": "[FILL IN]"
+    },
+    {
+      "scientific_name": "Cycas circinalis",
+      "common_name": "Queen sago",
+      "notes": "[FILL IN]"
+    },
+    {
+      "scientific_name": "Cycas thouarsii",
+      "common_name": "Malagasy cycad",
+      "notes": "[FILL IN]"
+    }
+  ],
+  "gallery": [
+    {
+      "filename": "[FILL IN e.g. cycas_revoluta_habit.jpg]",
+      "caption": "[FILL IN]",
+      "credit": "[FILL IN]",
+      "license": "[FILL IN e.g. CC BY-SA 4.0]"
+    }
+  ],
+  "references": [
+    "[FILL IN citation 1]",
+    "[FILL IN citation 2]"
+  ],
+  "external_links": [
+    {
+      "label": "Cycas — Plants of the World Online",
+      "url": "https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:30001525-2"
+    },
+    {
+      "label": "Cycas — IUCN Red List",
+      "url": "https://www.iucnredlist.org/search?query=cycas&searchType=species"
+    }
+  ],
+  "categories": [
+    "Cycads",
+    "Cycadaceae",
+    "Gymnosperms",
+    "Living fossils",
+    "Ornamental plants"
+  ],
+  "last_edited": "2026-06-22"
+}
